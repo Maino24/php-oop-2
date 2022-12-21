@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+.containerTot{
+    
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.containerCard{
+    border: 1px solid black;
+    width: calc(100% / 4);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+img{
+    max-width: 200px;
+    text-align: center;    
+}

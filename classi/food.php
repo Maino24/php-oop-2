@@ -14,7 +14,7 @@ class Food extends Product{
         Category $category,
 
         String $weight,
-        String $ingredienti
+        Array $ingredienti
     )
     {
         parent::__construct($image,$nome,$prezzo,$category);

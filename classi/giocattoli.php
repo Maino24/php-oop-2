@@ -2,9 +2,9 @@
 
 include_once __DIR__ . '/product.php';
 
-class Accessori extends product{
-    public $materiali;
-    public $taglia;
+class Giocattoli extends product{
+    public $caratteristiche;
+    public $dimensioni;
     
     public function __construct(
         String $image,
@@ -12,14 +12,14 @@ class Accessori extends product{
         Float $prezzo,
         Category $category,
 
-        String $materiali,
-        String $taglia,
+        String $caratteristiche,
+        String $dimensioni
 
     )
     {
         parent ::__construct( $image, $nome, $prezzo, $category);
-        $this->materiali = $materiali;
-        $this->taglia = $taglia;
+        $this->caratteristiche = $caratteristiche;
+        $this->dimensioni = $dimensioni;
     }
 }
 

@@ -13,7 +13,7 @@ class Accessori extends product{
         Category $category,
 
         String $materiali,
-        String $taglia,
+        String $taglia
 
     )
     {
